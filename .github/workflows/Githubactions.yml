@@ -1,0 +1,10 @@
+name: First workflow
+on: workflow_dispatch
+jobs:
+  firstjob:
+    runs-on: ubuntu-22.04
+    steps:
+      - name: Print_greetings
+        run: echo "Welcome to github Action"
+      - name: Print goodbye
+        run: echo "Thanks for learning github actions"
